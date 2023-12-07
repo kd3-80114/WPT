@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assign3</title>
+    <link rel="stylesheet" href="assign3.css">
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+    <div class="container">
+        <div class="vcontain">
+            <iframe width="500" height="280" src="https://www.youtube.com/embed/4Onvb4MQLfg"
+                title="How to Host Multiple WordPress Websites on a Linux VPS 🔥" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+        <div class="fcontain">
+            <form action="mycodeonserver.jsp" method="post">
+
+                <table class="form">
+                    <tr>
+                        <td>Enter Name:</td>
+                        <td>
+                            <input type="text" placeholder="first name" title="Enter first name" name="name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Birthdate</td>
+                        <td>
+                            <input type="date" id="pickdate" name="date"></input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email:
+
+                        </td>
+                        <td>
+                            <input type="email" placeholder="enter proper domain" title="Enter mail id" name="mail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password:
+
+                        </td>
+                        <td>
+                            <input type="password" placeholder="enter password" title="Enter password" name="password">
+                        </td>
+                    </tr>
+                </table>
+                <table class="address">
+                    <tr class="add">
+                        <td>
+                            Address:
+                        </td>
+                        <td class="add">
+                            <select name="State">
+                                <option>Maharashtra</option>
+                                <option>Gujarat</option>
+                                <option>Bengal</option>
+                                <option>Rajasthan</option>
+                                <option>Punjab</option>
+                            </select>
+                        </td>
+                        <td class="add">
+                            <select name="District">
+                                <option>Pune</option>
+                                <option>Thane</option>
+                                <option>Amravati</option>
+                                <option>Nashik</option>
+                                <option>Nagpur</option>
+                            </select>
+                        </td>
+                        <td class="add">
+                            <select name="City">
+                                <option>Pune</option>
+                                <option>Mumbai</option>
+                                <option>Aurangabad</option>
+                                <option>Nagpur</option>
+                                <option>Solapur</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>State</td>
+                        <td>District</td>
+                        <td>City</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            Gender:
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" name="gender" /> F
+                            <input type="radio" name="gender" name="gender" /> M
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            Upload photo:
+                        </td>
+                        <td>
+                            <input type="file" placeholder="Browse your photo" title="upload photo" name="photo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Select your course</td>
+                        <td>
+                            <select name="course">
+                                <option>DAC</option>
+                                <option>DBDA</option>
+                                <option>DMC</option>
+                                <option>DESD</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" class="button" value="Register" name="Register">
+                        </td>
+                        <td>
+                            <input type="reset" class="button" value="Clear" name="Clear">
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

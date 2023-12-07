@@ -1,0 +1,15 @@
+h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.vcontain,.fcontain{
+    margin: 20px;
+}
+.button{
+    height: 22px;
+    width: 90px;
+}

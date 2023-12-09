@@ -1,0 +1,18 @@
+.none{
+    height: 200px;
+    width: 60%;
+    background-color:red ;
+    margin:auto;
+    display: none;
+    text-align:center;
+
+}
+.disp
+{
+    height: 200px;
+    width: 60%;
+    background-color:red ;
+    margin:auto;
+    display: block;
+    text-align:center;
+}
